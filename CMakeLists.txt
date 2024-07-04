@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(vecpp
         main.cpp
-        vecpp.h)
+        vecpp.cpp)
