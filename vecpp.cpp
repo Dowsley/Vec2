@@ -9,6 +9,9 @@ namespace vecpp {
     double Vec2::width() const { return x(); }
     double Vec2::height() const { return y(); }
 
+    void Vec2::setX(double v) { e[0] = v; }
+    void Vec2::setY(double v) { e[1] = v; }
+
     Vec2 Vec2::random() {
         return Vec2(random::randomDouble(), random::randomDouble());
     }
@@ -85,6 +88,13 @@ namespace vecpp {
     double Vec3::x() const { return e[0]; }
     double Vec3::y() const { return e[1]; }
     double Vec3::z() const { return e[2]; }
+    double Vec3::width() const { return x(); }
+    double Vec3::height() const { return y(); }
+    double Vec3::depth() const { return z(); }
+
+    void Vec3::setX(double v) { e[0] = v; }
+    void Vec3::setY(double v) { e[1] = v; }
+    void Vec3::setZ(double v) { e[2] = v; }
 
     Vec3 Vec3::random() {
         return Vec3(random::randomDouble(), random::randomDouble(), random::randomDouble());

@@ -50,6 +50,8 @@ namespace vecpp {
         double y() const;
         double width() const;
         double height() const;
+        void setX(double v);
+        void setY(double v);
 
         static Vec2 random();
         static Vec2 random(double min, double max);
@@ -82,6 +84,13 @@ namespace vecpp {
         double x() const;
         double y() const;
         double z() const;
+        double width() const;
+        double height() const;
+        double depth() const;
+
+        void setX(double v);
+        void setY(double v);
+        void setZ(double v);
 
         static Vec3 random();
         static Vec3 random(double min, double max);
