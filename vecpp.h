@@ -49,6 +49,8 @@ public:
 
     double x() const { return e[0]; }
     double y() const { return e[1]; }
+    double width() const { return x(); }
+    double height() const { return y(); }
 
     static Vec2 random() {
         return Vec2(random::randomDouble(), random::randomDouble());
