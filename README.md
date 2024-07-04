@@ -1,7 +1,7 @@
 
 # vecpp
 
-Lightweight, header-only C++ library providing vector mathematics functionality and other basic geometry & arithmetic utilities. I created this for reuse in my graphics and game development projects.
+Lightweight C++ library providing vector mathematics functionality and other basic geometry & arithmetic utilities. I created this for reuse in my graphics and game development projects.
 
 ## Features
 
