@@ -30,11 +30,11 @@
 //                               $$ |      $$ |
 //                               \__|      \__|
 // VERSION: 1.0.0
-// https://github.com/Dowsley/vecpp
+// https://github.com/Dowsley/veclite
 
-#include "vecpp.h"
+#include "veclite.h"
 
-namespace vecpp {
+namespace veclite {
     Vec2::Vec2() : e{0, 0} {}
     Vec2::Vec2(double x, double y) : e{x, y} {}
 

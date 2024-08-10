@@ -30,17 +30,17 @@
 //                               $$ |      $$ |
 //                               \__|      \__|
 // VERSION: 1.0.0
-// https://github.com/Dowsley/vecpp
+// https://github.com/Dowsley/veclite
 
-#ifndef VECPP_H
-#define VECPP_H
+#ifndef VECLITE_H
+#define VECLITE_H
 
 #include <cmath>
 #include <random>
 #include <limits>
 #include <iostream>
 
-namespace vecpp {
+namespace veclite {
     class Vec2 {
     public:
         Vec2();
@@ -157,4 +157,4 @@ namespace vecpp {
 
 }
 
-#endif // VECPP_H
+#endif // VECLITE_H
